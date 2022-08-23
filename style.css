@@ -8,7 +8,7 @@ body {
 }
 h2 {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 form {
     display: flex;
@@ -29,7 +29,8 @@ form button {
     padding: 10px;
     margin-top: 10px;
     border-radius: 10px;
-    background: rgb(221, 144, 144);
+    background: #231955;
+    color: #ccc;
     cursor: pointer;
 }
 form button:hover {
@@ -38,9 +39,12 @@ form button:hover {
 }
 /* Output Styling */
 .notes-container {
-    width: 50%;
-    margin: auto;
-    /* background: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    /* width: 70%; */
 }
 ul {
     display: flex;
@@ -52,13 +56,13 @@ ul {
 li {
     background: white;
     position: relative;
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
     justify-content: center;
     box-shadow: 5px 5px 10px #ccc;
-    width: 50%;
-    height: 150px;
-    padding: 10px;
+    /* width: 50%; */
+    /* height: 150px; */
+    padding: 25px;
 }
 li:hover {
     cursor: pointer;

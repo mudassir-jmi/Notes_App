@@ -46,9 +46,12 @@ function displayNotes() {
         ul.appendChild(li);
     });
     }
-  
+   
 }
 
 window.onload = () => {
     displayNotes();
 }
+
+const del = document.getElementById("del");
+displayNotes("");
